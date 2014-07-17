@@ -29,3 +29,5 @@ After installing the dependencies, you will need to use the `Load Unpacked Exten
 
 ## License
 [The MIT License](http://opensource.org/licenses/MIT)
+
+![Screenshot of Application](https://raw.githubusercontent.com/mimetics/Chrome-BTconnect-App/master/assets/screenShot.png)
