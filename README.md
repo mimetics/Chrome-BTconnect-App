@@ -3,6 +3,10 @@ BT-App_0_1
 
 This is a simple Chrome App to demonstrate the operation of the Chrome BluetoothSocket API
 
+## NOTE
+
+This App requires Chrome 37 (which, as of time of release is only available on the Dev Channel)
+
 ## Prerequisites
 * Git - Download and install [Git](http://git-scm.com/downloads).
 * Node.js - Download and Install [Node.js](http://www.nodejs.org/download/). You can also follow [this gist](https://gist.github.com/isaacs/579814) for a quick and easy way to install Node.js and npm
