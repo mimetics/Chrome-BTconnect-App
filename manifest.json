@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome BT App",
+  "version": "0.1",
+  "minimum_chrome_version": "37",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "bluetooth":{
+    "socket": true,
+    "uuids":
+    [
+        "00001101-0000-1000-8000-00805f9b34fb" // array of uuids
+    ]
+  }
+}

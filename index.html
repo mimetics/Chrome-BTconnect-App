@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chrome Bluetooth App</title>
+
+    <link href="deps/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container" id="app-content">
+      <h1>Chrome Bluetooth App</h1>
+
+      <div>
+        <div class="form-group">
+          <label for="btDeviceSelect">BT Devices:</label>
+          <select class="form-control" id="btDeviceSelect"></select>
+        </div>
+
+<!--        <div class="form-group">
+          <button type="button" class="btn" id="btDeviceScan">Scan Devices</button>
+        </div>  -->
+
+        <div class="form-group hidden">
+          <label>Selected BT Device:</label>
+          <p><span id="selectedBTDevice">&nbsp;</span></p>
+        </div>
+
+        <div class="row form-group">
+          <div class="col-md-6">
+            <label>Connection Status:</label>
+            <div><span id="btStatus">Disconnected</span></div>
+          </div>
+
+          <div class="col-md-6">
+            <label>Socket Id:</label>
+            <div><span id="socketId">-</span></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Actions:</label>
+          <div>
+            <button type="button" class="btn" id="btConnect">Connect</button>
+            <button type="button" class="btn" id="btDisconnect">Disconnect</button>
+            <button type="button" class="btn" id="btGetDevice">Device Info</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="sendMessageContent">Send Message:</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="sendMessageContent">
+            <span class="input-group-btn">
+              <button class="btn" type="button" id="btSendMessage">Send</button>
+            </span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Communication Log:</label>
+          <div class="well well-sm" id="btLog">
+            <pre class="log-content" id="btLogContent"></pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="deps/jquery/dist/jquery.min.js"></script>
+    <script src="deps/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+
+
+</html>

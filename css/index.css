@@ -1,0 +1,29 @@
+body {
+  color: white;
+  background-color: gray;
+}
+
+#app-content {
+  color: black;
+  background-color: white;
+  margin-top: 12px;
+  padding: 8px 8px;
+}
+
+#commPortSelect {
+  width: 100%;
+}
+
+#btLog {
+  height: 375px;
+  overflow-y: scroll;
+  font-family: "Courier New";
+  margin: 0;
+}
+
+.log-content {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: text;
+}
